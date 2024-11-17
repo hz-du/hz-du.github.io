@@ -155,6 +155,46 @@
       </td>
     </tr>
 
+    <tr>
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <img src='images1/DPCN++.png' width="160">
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://ieeexplore.ieee.org/document/10256027">
+      <span class="papertitle">DPCN++: Differentiable Phase Correlation Network for Versatile Pose Registration</span>
+    </a>
+    <br>
+    Zexi Chen, Yiyi Liao, <strong>Haozhe Du</strong>, Haodong Zhang, Xuecheng Xu, Haojian Lu, Rong Xiong, and Yue Wang.
+        <br>
+        IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) 2023.<br>
+        </p>
+        <div class="paper" id="DPCN++">
+        <a href="https://ieeexplore.ieee.org/document/9517404/">pdf</a> /
+        <a href="https://arxiv.org/pdf/2206.05707">arxiv</a> /
+        <a href="javascript:toggleblock('DPCN++_abs')">abstract</a> /
+        <a shape="rect" href="javascript:togglebib('DPCN++')" class="togglebib">bibtex</a> /
+
+        <p align="justify"> <i id="smt_abs">—Pose registration is critical in vision and robotics. This paper focuses on the challenging task of initialization-free pose registration up to 7DoF for homogeneous and heterogeneous measurements. While recent learning-based methods show promise using differentiable solvers, they either rely on heuristically defined correspondences or are prone to local minima. We present a differentiable phase correlation (DPC) solver that is globally convergent and correspondence-free. When combined with simple feature extraction networks, our general framework DPCN++ allows for versatile pose registration with arbitrary initialization. Specifically, the feature extraction networks first learn dense feature grids from a pair of homogeneous/heterogeneous measurements. These feature grids are then transformed into a translation and scale invariant spectrum representation based on Fourier transform and spherical radial aggregation, decoupling translation and scale from rotation. Next, the rotation, scale, and translation are independently and efficiently estimated in the spectrum step-by-step using the DPC solver. The entire pipeline is differentiable and trained end-to-end. We evaluate DCPN++ on a wide range of registration tasks taking different input modalities, including 2D bird’s-eye view images, 3D object and scene measurements, and medical images. Experimental results demonstrate that DCPN++ outperforms both classical and learning-based baselines, especially on partially observed and heterogeneous measurements.</i></p>
+
+        <pre xml:space="preserve">
+          @article{chen2023dpcn++,
+            title={DPCN++: Differentiable Phase Correlation Network for Versatile Pose Registration},
+            author={Chen, Zexi and Liao, Yiyi and Du, Haozhe and Zhang, Haodong and Xu, Xuecheng and Lu, Haojian and Xiong, Rong and Wang, Yue},
+            journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+            year={2023},
+            publisher={IEEE}
+          }
+        </pre>
+      </div>
+
+        <p></p>
+        <p>
+        Differentiable phase correlation (DPC) solver for initialization-free up to 7DoF pose registration of homogeneous and heterogeneous measurements.
+        </p>
+      </td>
+    </tr>
+
+
 
     <tr onmouseout="gnn_rcar_stop()" onmouseover="gnn_rcar_start()"></tr>
       <td style="padding:20px;width:25%;vertical-align:middle">
