@@ -9,7 +9,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    
+    <script type="text/javascript" src="js/hidebib.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-XXXXX-Y', 'auto');
+      ga('send', 'pageview');
+      </script>
+    <!-- End : Google Analytics Code -->
+    <!-- Scramble Script by Jeff Donahue -->
+    <script src="js/scramble.js"></script>
   </head>
 
   <body>
@@ -87,8 +98,8 @@
         <br>
         Under Review
         <br>
-        <a href="https://sites.google.com/view/polyfold">project page</a>
-        <a href="javascript:toggleblock('polyfold_abs')">abstract</a> |
+        <a href="https://sites.google.com/view/polyfold">project page</a> /
+        <a href="javascript:toggleblock('polyfold_abs')">abstract</a> 
         <!-- <a shape="rect" href="javascript:togglebib('polyfold')" class="togglebib">bibtex</a> | -->
         <p align="justify"> <i id="polyfold_abs">Cloth folding stands as an intricate subject in robot manipulation, requiring robots to fold diverse fabrics into different configurations according to human intentions. Most previous approaches address this problem in a vision/language goal-conditioned way. They usually depend on precise subgoals and lack inherent multi-step reasoning ability. They also require substantial training data from expert demonstrations and often face difficulties generalizing to different, previously unseen cloth appearances and tasks. To tackle these problems, we present PolyFold, a novel language-conditioned bimanual cloth folding framework that excels in zero-shot generalization and inherent multi-step reasoning capability, while also operating in an expert-demonstration-free manner. Given solely a language goal (even if it is ambiguous), PolyFold utilizes parameterized polygon model, Large Language Models (LLMs), and a self-supervised learning downstream policy to achieve a sequence of successful cloth folding actions. PolyFold can be divided into three key parts: subgoal decomposition LLM, symmetrical fold line generation LLM, and fold line guided bimanual pick-and-place policy. Experiments show that PolyFold is able to zero-shot generalize to various cloth types and 70 cloth folding tasks when providing only final language instructions, surpassing previous SOTA vision-conditioned and language-conditioned methods. Our method can also be directly deployed in real-world scenarios. </i></p>
         <p></p>
